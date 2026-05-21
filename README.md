@@ -1,45 +1,51 @@
 # SauceDemo E2E Testing
 
+![Cypress](https://img.shields.io/badge/Cypress-E2E-green)
+![JavaScript](https://img.shields.io/badge/JavaScript-Testing-yellow)
+![QA](https://img.shields.io/badge/QA-Automation-blue)
+
 End-to-end testing practice project using Cypress with the SauceDemo web application.
 
 ## Project Objective
 
-The goal of this project is to practice UI automation, API testing, assertions, QA analysis, and end-to-end user flows.
+The goal of this project is to practice UI automation, functional testing, assertions, test organization, and QA analysis based on real user flows.
+
+## Tested Scenarios
+
+### UI Testing
+
+- Valid login
+- Invalid login
+- Login error message validation
+- Redirection to inventory page after successful login
+- Inventory page visibility validation
 
 ## Project Structure
 
-- fixtures → test data
-- pages → Page Object Model structure
-- tests/UI → UI automated tests
-- tests/API → API testing scenarios
-
-## Tested Flows
-
-### UI Testing
-- Valid login
-- Invalid login
-- Navigation flow
-
-### API Testing
-- API order flow
-- Request validation
-- Response validation
+- `cypress/e2e/UI` → UI automated tests
+- `cypress/e2e/API` → API testing scenarios
+- `cypress/fixtures` → Test data
+- `pages` → Page Object Model files
+- `screenshots` → Test execution evidence
 
 ## Tools Used
 
 - Cypress
 - JavaScript
 - Node.js
+- Git
+- GitHub
 
 ## Skills Demonstrated
 
 - End-to-End Testing
 - UI Automation
-- API Testing
 - Functional Testing
-- Assertions
+- Test Assertions
+- Test Data Management
+- Page Object Model
 - QA Analysis
-- Test Organization
+- Git/GitHub workflow
 
 ## Test Execution Evidence
 
@@ -47,6 +53,9 @@ The goal of this project is to practice UI automation, API testing, assertions, 
 
 ![Cypress Login Tests](screenshots/cypress-login-tests-passed.png)
 
-## Author
+## How to Run the Project
 
-Thiago Queiroz Meneses dos Santos
+Clone the repository:
+
+```bash
+git clone https://github.com/thiagoqueirozm/saucedemo-e2e-testing.git
