@@ -41,6 +41,12 @@ The goal of this project is to practice UI automation, API testing, assertions, 
 - QA Analysis
 - Test Organization
 
+## Test Execution Evidence
+
+### Cypress Login Tests
+
+![Cypress Login Tests](screenshots/cypress-login-tests-passed.png)
+
 ## Author
 
 Thiago Queiroz Meneses dos Santos
