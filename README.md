@@ -59,3 +59,40 @@ Clone the repository:
 
 ```bash
 git clone https://github.com/thiagoqueirozm/saucedemo-e2e-testing.git
+```
+
+Access the project folder:
+
+```bash
+cd saucedemo-e2e-testing
+```
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+Open Cypress:
+
+```bash
+npx cypress open
+```
+
+Run the available test specs from the Cypress interface.
+
+## Key Learnings
+
+- Organizing automated tests with Cypress
+- Using fixtures to manage test data
+- Applying Page Object Model structure
+- Validating successful and unsuccessful login flows
+- Debugging Cypress path and fixture issues
+- Using Git and GitHub to publish a QA portfolio project
+
+## Author
+
+Thiago Queiroz Meneses dos Santos
+
+```bash
+git clone https://github.com/thiagoqueirozm/saucedemo-e2e-testing.git
