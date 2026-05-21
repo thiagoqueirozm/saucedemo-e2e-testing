@@ -1,0 +1,16 @@
+describe("API login flow", () => {
+  it("should login with valid credentials and get token", () => {
+    cy.request({
+      method: "POST",
+      url: "https://dummyjson.com/auth/login",
+      body: {
+        username: "standard_user",
+        password: "secret_sauce",
+      }.then((response) => {
+        expect(response.status).to.eq(200);
+        expect(response.body).to.not.be.empty;
+        expect(response.body.token).to.exist;
+      }),
+    });
+  });
+});
