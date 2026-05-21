@@ -93,6 +93,3 @@ Run the available test specs from the Cypress interface.
 ## Author
 
 Thiago Queiroz Meneses dos Santos
-
-```bash
-git clone https://github.com/thiagoqueirozm/saucedemo-e2e-testing.git
